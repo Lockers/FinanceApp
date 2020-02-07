@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
-import { createStore, applyMiddleware, compose } from 'redux';
+import { createStore, applyMiddleware} from 'redux';
 import { BrowserRouter } from 'react-router-dom';
 import { reducer } from './store/reducers/index';
 import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';

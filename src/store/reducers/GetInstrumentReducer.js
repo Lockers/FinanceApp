@@ -27,7 +27,7 @@ const getInstrumentsReducer = (state = initialState, action) => {
             return {
                 ...state,
                 gettingInstruments: false,
-                instruments: [...state.instruments, ...action.payload]
+                instruments: [...state.instruments, ...action.payload.instruments]
             };
         default: return state;
     }
